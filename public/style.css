@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border: 3px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    text-align: center;
+    font-size: 3rem;
+    border: 2px solid #333;
+    transition: background-color 0.5s;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: #e0f7fa;
+}
