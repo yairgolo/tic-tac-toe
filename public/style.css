@@ -6,12 +6,16 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    font-family: cursive;
+    background-image: linear-gradient(to right, #ffbe5f, #6a6a6a);
+    justify-content: space-evenly;
 }
 
 table {
     border: 3px solid;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     user-select: none;
+    text-shadow: 5px -1px 2px black;
 }
 
 td {
